@@ -58,13 +58,13 @@
 		}
 	});
 /*************************************** TOOLTIP ***************************************/
-	$('.thumbnail img, .item img').mousemove(function(e){
+	$('.thumbnail img, .clickable img').mousemove(function(e){
 		let x = e.pageX + 10;
 		let y = e.pageY - 10 ;
 		$('.spanclick').removeClass('hidden').offset({top: y, left: x});
 	});
 
-	$('.thumbnail img, .item img').mouseleave(function(e){
+	$('.thumbnail img, .clickable img').mouseleave(function(e){
 		$('.spanclick').addClass('hidden');
 	})
 /************************************************** PHP NON AVAILABLE ***********************************/
