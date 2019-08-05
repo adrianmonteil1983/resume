@@ -3,6 +3,13 @@
 body
 {
 	font-family: "Lato", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	margin: 0px;
+	padding: 0px;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -326,6 +333,17 @@ li
 	-webkit-filter: none;
 
 }
+.spanclick
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #AAA;
+	position: absolute;
+}
+.hidden
+{
+	display: none;	
+}
 
 /******************************************** RECOMMANDATIONS ****************************************/
 
@@ -356,7 +374,9 @@ li
 }
 #monCarousel .item img
 {
-	padding-left: 120px;
+	height: 80%;
+	width: 80%;
+	padding-left: 20%;
 }
 
 #monCarousel .item h3
@@ -399,7 +419,7 @@ li
 	outline: none;
 }
 .button1{
-	margin-left: auto;
+ margin-left: auto;
 }
 .button1:hover
 {
