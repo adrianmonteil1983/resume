@@ -9,7 +9,7 @@
 	});
 
 /*********************************************** MAILTO SENDING ********************************************************/
-	$('.button1').click(function(e){
+	$('.button1').click(function(){
 		$('.comments').empty();
 		const emailAdress = "mailto:monteiladrian@gmail.com?subject=recruitment&body=";
 		const controlForms = $('.form-control');
@@ -64,7 +64,7 @@
 		$('.spanclick').removeClass('hidden').offset({top: y, left: x});
 	});
 
-	$('.thumbnail img, .clickable img').mouseleave(function(e){
+	$('.thumbnail img, .clickable img').mouseleave(function(){
 		$('.spanclick').addClass('hidden');
 	})
 /************************************************** PHP NON AVAILABLE ***********************************/
