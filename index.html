@@ -3,7 +3,7 @@
 <head>
 	<title>CV Adrian</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -12,8 +12,8 @@
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
-	<nav class="navbar navbar-default navbar-fixed-top container-fluid">
-		<div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top container-fluid">
+		<div>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
 					<span class="icon-bar"></span>
@@ -33,7 +33,7 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
+  </nav>
 	<section id="about" class="container-fluid">
 		<div class="col-xs-8 cold-md-4 profile-picture">
 			<img src="images/me.JPG" alt="adrian" class="img-circle">
@@ -49,7 +49,7 @@
 		<div class="heading">
 			<h2>Skills</h2>
 		</div>
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="progress">
@@ -105,9 +105,13 @@
 								<p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2018</p>
 							</div>
 							<div class="timeline-body">
-								<p>- Web development</p>
-								<p>- Designing and programming smart home and building automation systems</p>
-								<p>- Personnal project development of my own smart-home software using react.js, node.js. mongoDB</p>
+								<p>- Developed a smart building web app to centralize and 
+                  control light, AV, shades, HVAC.
+                </p>
+                <p>- Integrated and configured Audio visual systems, IP CCTV, 
+                  acces control, intercom, network.
+                </p>
+                <p>- Stack: react, node.js, socket.IO, mongoDB, css grid</p>
 							</div>
 						</div>
 					</div>
@@ -122,9 +126,11 @@
 								<p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2017</p>
 							</div>
 							<div class="timeline-body">
-								<p>- Design large electronic security systems and building management systems </p>
+								<p>- Designed large electronic security systems and building management systems 
+                  for a french manufacturer.
+                </p>
 								<p>- Technical pre-sale support</p>
-								<p>- Quotations</p>
+                <p>- Quotations</p>
 							</div>
 						</div>
 					</div>
@@ -139,9 +145,9 @@
 								<p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2014-2017</p>
 							</div>
 							<div class="timeline-body">
-								<p>- Programming and commissioning 3D scada building managment sytems</p>
+								<p>- Programmed and commissioned 3D scada building managment sytems</p>
 								<p>- IT network, Automation, Python scripting</p>
-								<p>- Using various protocol such as tcp/ip, bacnet, rs232, rs485, i2c, modbus</p>
+								<p>- Using various protocols such as tcp/ip, bacnet, rs232, rs485, i2c, modbus</p>
 							</div>
 						</div>
 					</div>
@@ -152,12 +158,13 @@
 						<div class="timeline-panel">
 							<div class="timeline-heading">
 								<h3>Herve thermique</h3>
-								<h4>Automation engineer / Developer</h4>
+								<h4> Developer</h4>
 								<p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2013-2014</p>
 							</div>
 							<div class="timeline-body">
-								<p>- PLC programming</p>
-								<p>- C# Development</p>
+								<p>- Developed network time server to avoid PLC internal clock drift</p>
+                <p>- Developed PLC programs for Smart Building</p>
+                <p>- Stack: C#, XML, Pascal</p>
 							</div>
 						</div>
 					</div>
@@ -172,9 +179,11 @@
 								<p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2009-2013</p>
 							</div>
 							<div class="timeline-body">
-								<p>- Programming and commissioning Building management systems with scada software</p>
-								<p>- Programming and commissioning alarm, acces control, cctv systems for commercial buildings</p>
-								<p>- Technical trainer for technicians</p>
+								<p>- Programmed and commissioned Building management systems with scada software
+                  for a french manufacturer
+                </p>
+								<p>- Programmed and commissioned alarm, acces control, cctv systems for commercial buildings</p>
+								<p>- Trainned technicians on the main systems</p>
 							</div>
 						</div>
 					</div>
@@ -238,13 +247,12 @@
 			</div>
 		</div>
 	</section>
-	<section id="portfolio">
+	<section id="portfolio" class="container-fluid">
 		<div class="white-divider"></div>
 		<div class="heading">
 			<h2>Companies</h2>
-		</div>
+    </div>
 		<div class="row">
-			
 			<div class="col-sm-4">
 				<a class="thumbnail" href="https://til-technologies.fr/" target="_blank">
 					<img src="images/til.jpg" height="400" alt="facebook share">
@@ -262,7 +270,7 @@
 					<img src="images/cap_ingelec.jpg" alt="twitter retweet">
 					<span class='hidden spanclick'>click</span>
 				</a>
-			</div>
+      </div>
 			<div class="col-sm-4">
 				<a class="thumbnail" href="https://www.herve-thermique.com/" target="_blank">
 					<img src="images/herve_thermique.jpeg" alt="facebook video">
@@ -292,7 +300,19 @@
 			</div>
 			<div id="monCarousel" class="carousel slide text-center" data-ride="carousel">
 				<div class="carousel-inner">
-					<div class="item active">
+          <div class="item active clickable">
+            <a href=https://salty-beyond-55903.herokuapp.com target='blank'><img src="images/facerecorgnition.jpeg" width=500 alt="brain-app"><span class='hidden spanclick'>click</span></a>
+            <h3>Face recognition </h3></a>
+            <p>Web application full-stack (click on the image)</p>
+            <p>Using React.js, node.js, postgresql, Json Api</p>
+          </div>
+          <div class="item">
+            <img src="images/react_automation.png" alt="smartauthomation">
+            <h3>React automation</h3>
+            <p>Home automation supervision</p>
+            <p>Using React.js, node.js, socket.io, mongoDB, arduinos</p>
+          </div>
+					<div class="item">
 						<img src="images/sheraton.JPG" alt="sheraton">
 						<h3>Hotel park Sheraton Doha Qatar</h3>
 						<p>Building managment system</p>
@@ -310,23 +330,11 @@
 						<p>Building managment system full 3D</p>
 						<p>Centralization of cctv, lighting, smart parking, fire alarm, hvac, acces, public address, intercom in one app</p>
 					</div>
-					<div class="item clickable">
-							<a href=https://salty-beyond-55903.herokuapp.com target='blank'><img src="images/facerecorgnition.jpeg" alt="brain-app"><span class='hidden spanclick'>click</span></a>
-							<h3>Face recognition </h3></a>
-							<p>Web application full-stack (click on the image)</p>
-							<p>Using React.js, node.js, postgresql, Json Api</p>
-					</div>
 					<div class="item">
 							<img src="images/sanef.jpg" alt="sanef">
 							<h3>North east french highway</h3>
 							<p>Electronic security</p>
 							<p>Programming/commissioning 222 miles of Voip network intercom system interfaced with cctv</p>
-					</div>
-					<div class="item">
-							<img src="images/smartauthomation.png" alt="smartauthomation">
-							<h3>React automation</h3>
-							<p>Home automation supervision (in progress)</p>
-							<p>Using React.js, node.js, socket.io, mongoDB, arduinos</p>
 					</div>
 					<div class="item">
 							<img src="images/sncf.png" alt="sncf">
@@ -386,7 +394,7 @@
 				</form>
 			</div>
 		</div>
-	</div>	
+	</div>
 	</section>
 	<footer class="text-center">
 		<a href="#about">
